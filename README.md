@@ -8,5 +8,5 @@ toto zase OFFLINE
 
 toto robim teraz online
 
-teraz sa hrajkame
+teraz sa hrajkame\nzeby novy riadok
 
