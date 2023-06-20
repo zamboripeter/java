@@ -45,6 +45,7 @@ public class Reactor extends AbstractActor {
         if (this.damage < damage){
             this.damage = damage;
              }
+
         if (this.temperature > 4000){
             setAnimation(new Animation(
                 "sprites/reactor_hot.png",
