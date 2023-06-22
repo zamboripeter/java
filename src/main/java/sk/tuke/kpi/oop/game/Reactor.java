@@ -7,6 +7,7 @@ import sk.tuke.kpi.gamelib.graphics.Animation;
 
 //potomok ma rozsirene vlastnosti rodica
 public class Reactor extends AbstractActor {
+    private Light light;
     private int temperature;
     private boolean state;
     private int damage;
@@ -50,7 +51,9 @@ public class Reactor extends AbstractActor {
         setAnimation(this.buyAnimation);
     }
 
-
+    public void addLight(Light light){
+        this.light = light;
+       }
     public int getTemperature() {
         return this.temperature;
     }
