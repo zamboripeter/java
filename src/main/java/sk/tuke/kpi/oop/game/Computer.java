@@ -16,9 +16,20 @@ public class Computer extends AbstractActor {
         int sucet = prveCislo + druheCislo;
         return sucet;
     }
+    //pretazenie
+    public float add(float prveCislo, float druheCislo) {
+        float sucet = prveCislo + druheCislo;
+        return sucet;
+    }
+
 
     public int sub(int prveCislo, int druheCislo) {
         int rozdiel = prveCislo - druheCislo;
+        return rozdiel;
+    }
+
+    public float sub(float prveCislo, float druheCislo) {
+        float rozdiel = prveCislo - druheCislo;
         return rozdiel;
     }
 
